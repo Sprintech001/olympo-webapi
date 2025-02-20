@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j2mKs1j3roy2MpjQO0X2PwjY3DVR26UUoy8WmttFoOo=",
+  "Hash": "OCZ6HKyS20dp5a1hUUAHaxGntVvQ5bbd0gbHB6ayT98=",
   "Source": "olympo-webapi",
   "BasePath": "_content/olympo-webapi",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "olympo-webapi\\wwwroot",
       "Source": "olympo-webapi",
-      "ContentRoot": "C:\\Users\\thoma\\SSD\\Sprintech\\projects\\Olympo\\olympo-webapi\\olympo-webapi\\wwwroot\\",
+      "ContentRoot": "E:\\SSD\\Sprintech\\projects\\Ultima versão\\olympo-webapi\\wwwroot\\",
       "BasePath": "_content/olympo-webapi",
       "Pattern": "**"
     }

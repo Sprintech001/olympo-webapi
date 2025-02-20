@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R3vR+ej1Z1M=",
+  "dgSpecHash": "fhXJ0MEYSLw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thoma\\SSD\\Sprintech\\projects\\Olympo\\olympo-webapi\\olympo-webapi\\olympo-webapi.csproj",
+  "projectFilePath": "E:\\SSD\\Sprintech\\projects\\Ultima versão\\olympo-webapi\\olympo-webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thoma\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

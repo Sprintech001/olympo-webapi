@@ -2,23 +2,8 @@ using olympo_webapi.Infrastructure;
 using olympo_webapi.Models;
 using olympo_webapi.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.WebHost.ConfigureKestrel(options =>
-{
-    options.ListenAnyIP(5217); 
-});
-
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-    });
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -43,15 +28,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddAuthorization();
-
-builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(options =>
-{
-    options.Cookie.Name = ".Olympo.Session";
-    options.IdleTimeout = TimeSpan.FromMinutes(60);
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
-});
+builder.Services.AddControllers(); // 🛠️ Adiciona os controladores
 
 var app = builder.Build();
 
@@ -65,49 +42,10 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 
-app.UseSession();
-
 app.UseAuthorization();
 
 app.UseStaticFiles();
 
-app.MapControllers();
+app.MapControllers(); 
 
 app.Run();
-
-
-
-
-
-// app.UseAuthentication();
-
-// app.UseMiddleware<AuthorizationMiddleware>(); // Middleware de autorização (descomentar após implementação)
-
-// ------------- JWT Authentication configuration ------------- //
-
-// var jwtKey = builder.Configuration["Jwt:Key"];
-// var jwtIssuer = builder.Configuration["Jwt:Issuer"];
-
-// if (string.IsNullOrWhiteSpace(jwtKey) || string.IsNullOrWhiteSpace(jwtIssuer))
-// {
-//     throw new ArgumentNullException("JWT configurations are missing in appsettings.json");
-// }
-
-// builder.Services.AddAuthentication(options =>
-// {
-//     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-//     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-// })
-// .AddJwtBearer(options =>
-// {
-//     options.TokenValidationParameters = new TokenValidationParameters
-//     {
-//         ValidateIssuer = true,
-//         ValidateAudience = true,
-//         ValidateLifetime = true,
-//         ValidateIssuerSigningKey = true,
-//         ValidIssuer = jwtIssuer,
-//         ValidAudience = jwtIssuer,
-//         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
-//     };
-// });
