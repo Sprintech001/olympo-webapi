@@ -4744,11 +4744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SSD\\Sprintech\\projects\\Ultima versão\\olympo-webapi\\olympo-webapi.csproj",
+      "projectUniqueName": "D:\\SSD\\Sprintech\\projects\\olympo-webapi\\olympo-webapi.csproj",
       "projectName": "olympo-webapi",
-      "projectPath": "E:\\SSD\\Sprintech\\projects\\Ultima versão\\olympo-webapi\\olympo-webapi.csproj",
+      "projectPath": "D:\\SSD\\Sprintech\\projects\\olympo-webapi\\olympo-webapi.csproj",
       "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "E:\\SSD\\Sprintech\\projects\\Ultima versão\\olympo-webapi\\obj\\",
+      "outputPath": "D:\\SSD\\Sprintech\\projects\\olympo-webapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

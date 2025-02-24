@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "6R05qCx4NNXT8iGEQPpTjNmb0mF55kuY9zxzdvDZm7Q=",
+  "Source": "olympo-webapi",
+  "BasePath": "_content/olympo-webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
