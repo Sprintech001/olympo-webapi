@@ -1,20 +1,12 @@
 {
   "Version": 1,
-  "Hash": "OCZ6HKyS20dp5a1hUUAHaxGntVvQ5bbd0gbHB6ayT98=",
+  "Hash": "6R05qCx4NNXT8iGEQPpTjNmb0mF55kuY9zxzdvDZm7Q=",
   "Source": "olympo-webapi",
   "BasePath": "_content/olympo-webapi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "olympo-webapi\\wwwroot",
-      "Source": "olympo-webapi",
-      "ContentRoot": "E:\\SSD\\Sprintech\\projects\\Ultima versão\\olympo-webapi\\wwwroot\\",
-      "BasePath": "_content/olympo-webapi",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []
 }

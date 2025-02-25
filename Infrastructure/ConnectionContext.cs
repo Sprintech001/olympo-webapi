@@ -16,8 +16,16 @@ namespace olympo_webapi.Infrastructure
         {
         }
 
+        public ConnectionContext()
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseNpgsql("Host=localhost;Database=olympo;Username=postgres;Password=password");
+            }
             optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
         }
 

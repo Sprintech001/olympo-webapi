@@ -11,8 +11,8 @@ using olympo_webapi.Infrastructure;
 namespace olympo_webapi.Migrations
 {
     [DbContext(typeof(ConnectionContext))]
-    [Migration("20250117004914_InitiaDb")]
-    partial class InitiaDb
+    [Migration("20250225162024_initialDb")]
+    partial class initialDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -232,7 +232,7 @@ namespace olympo_webapi.Migrations
                             Email = "adm@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "Admin",
-                            Password = "AQAAAAIAAYagAAAAELQiroQuBETEzbi+6watlapd/T/HDs7+tUXMfvVsQ5iJkkqstVyohnQCC1EgZQzYPg==",
+                            Password = "AQAAAAIAAYagAAAAEObbl94OOgivuB9hl2yNRdyqmZDc1zhksnBTQsMNAUl05d+ekcUHUZP5VeHfL53Lpg==",
                             Type = "Administrador"
                         },
                         new
@@ -242,7 +242,7 @@ namespace olympo_webapi.Migrations
                             Email = "jose@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "José",
-                            Password = "AQAAAAIAAYagAAAAEEWvxgDNSyImvHes32BvugcsZMfM+OmMp/HbVaX7is7cvjJ+xHvpbl+ZK93fOZzuGg==",
+                            Password = "AQAAAAIAAYagAAAAEI0E/z+kTrGJvlbiYunG/A6usyz0SQtMYkqht7Sg5GItMa3MjkkwfbUhLlvV3cmPlw==",
                             Type = "Professor"
                         },
                         new
@@ -252,7 +252,7 @@ namespace olympo_webapi.Migrations
                             Email = "maria@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "Maria",
-                            Password = "AQAAAAIAAYagAAAAEMxiwgUpT1xx1qQFQ6dzIk4QzB/jneys0wwDwWgFKJtSDB8u0EHMhqQcg00KdToSrQ==",
+                            Password = "AQAAAAIAAYagAAAAEKwD4UAJZq3JXJL600d8hlyhyXIS72tzWhOA0ClRNtRTPxIRK9UWzKRg4qM4+FJUGw==",
                             Type = "Aluno"
                         },
                         new
@@ -262,7 +262,7 @@ namespace olympo_webapi.Migrations
                             Email = "joao@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "João",
-                            Password = "AQAAAAIAAYagAAAAEEZms7z0OZCi6JI27Z9/3aMYZn5UL9u7VYCFAzAEx63BNjNm+SdzvnSxJegF9e1fBQ==",
+                            Password = "AQAAAAIAAYagAAAAEOJK3uYuItjVg7Glpre4mvw0SDnhU+ohbTAg03BqG6UDIYWn4fnVahH7lpjpjjUg2w==",
                             Type = "Aluno"
                         });
                 });

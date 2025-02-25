@@ -229,7 +229,7 @@ namespace olympo_webapi.Migrations
                             Email = "adm@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "Admin",
-                            Password = "AQAAAAIAAYagAAAAEC06Xg2znmDDB3+grBDpOpWJtmQD5fQ8v7irnrczfskf8EMtFd6sCUCGdSVC71YG/Q==",
+                            Password = "AQAAAAIAAYagAAAAEObbl94OOgivuB9hl2yNRdyqmZDc1zhksnBTQsMNAUl05d+ekcUHUZP5VeHfL53Lpg==",
                             Type = "Administrador"
                         },
                         new
@@ -239,7 +239,7 @@ namespace olympo_webapi.Migrations
                             Email = "jose@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "José",
-                            Password = "AQAAAAIAAYagAAAAEGxHsoYGFMnd/JgUsgOvLU7zg//hFoibcL5QepDdPgGq7YLElBmODh5Fgc2brs25VA==",
+                            Password = "AQAAAAIAAYagAAAAEI0E/z+kTrGJvlbiYunG/A6usyz0SQtMYkqht7Sg5GItMa3MjkkwfbUhLlvV3cmPlw==",
                             Type = "Professor"
                         },
                         new
@@ -249,7 +249,7 @@ namespace olympo_webapi.Migrations
                             Email = "maria@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "Maria",
-                            Password = "AQAAAAIAAYagAAAAENecS3o44ESqlgy9rujQf4BEbwIN7qjimFSIgoTdw3eZefh3/b0QkYKFe1USGw1Hkw==",
+                            Password = "AQAAAAIAAYagAAAAEKwD4UAJZq3JXJL600d8hlyhyXIS72tzWhOA0ClRNtRTPxIRK9UWzKRg4qM4+FJUGw==",
                             Type = "Aluno"
                         },
                         new
@@ -259,7 +259,7 @@ namespace olympo_webapi.Migrations
                             Email = "joao@gmail.com",
                             ImagePath = "defaultphoto.jpg",
                             Name = "João",
-                            Password = "AQAAAAIAAYagAAAAEGz1uBiy+TMBGyTsFrKZBsXcSH0aanfT78hRJAO+BkOCIK0LH4lmP4s1BH2ZEaT33A==",
+                            Password = "AQAAAAIAAYagAAAAEOJK3uYuItjVg7Glpre4mvw0SDnhU+ohbTAg03BqG6UDIYWn4fnVahH7lpjpjjUg2w==",
                             Type = "Aluno"
                         });
                 });

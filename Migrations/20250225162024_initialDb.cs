@@ -8,7 +8,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace olympo_webapi.Migrations
 {
     /// <inheritdoc />
-    public partial class InitiaDb : Migration
+    public partial class initialDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -83,10 +83,10 @@ namespace olympo_webapi.Migrations
                 columns: new[] { "Id", "CPF", "Email", "ImagePath", "Name", "Password", "Type" },
                 values: new object[,]
                 {
-                    { 1, "123.456.789-01", "adm@gmail.com", "defaultphoto.jpg", "Admin", "AQAAAAIAAYagAAAAELQiroQuBETEzbi+6watlapd/T/HDs7+tUXMfvVsQ5iJkkqstVyohnQCC1EgZQzYPg==", "Administrador" },
-                    { 2, "987.654.321-09", "jose@gmail.com", "defaultphoto.jpg", "José", "AQAAAAIAAYagAAAAEEWvxgDNSyImvHes32BvugcsZMfM+OmMp/HbVaX7is7cvjJ+xHvpbl+ZK93fOZzuGg==", "Professor" },
-                    { 3, "123.456.789-01", "maria@gmail.com", "defaultphoto.jpg", "Maria", "AQAAAAIAAYagAAAAEMxiwgUpT1xx1qQFQ6dzIk4QzB/jneys0wwDwWgFKJtSDB8u0EHMhqQcg00KdToSrQ==", "Aluno" },
-                    { 4, "123.456.789-01", "joao@gmail.com", "defaultphoto.jpg", "João", "AQAAAAIAAYagAAAAEEZms7z0OZCi6JI27Z9/3aMYZn5UL9u7VYCFAzAEx63BNjNm+SdzvnSxJegF9e1fBQ==", "Aluno" }
+                    { 1, "123.456.789-01", "adm@gmail.com", "defaultphoto.jpg", "Admin", "AQAAAAIAAYagAAAAEObbl94OOgivuB9hl2yNRdyqmZDc1zhksnBTQsMNAUl05d+ekcUHUZP5VeHfL53Lpg==", "Administrador" },
+                    { 2, "987.654.321-09", "jose@gmail.com", "defaultphoto.jpg", "José", "AQAAAAIAAYagAAAAEI0E/z+kTrGJvlbiYunG/A6usyz0SQtMYkqht7Sg5GItMa3MjkkwfbUhLlvV3cmPlw==", "Professor" },
+                    { 3, "123.456.789-01", "maria@gmail.com", "defaultphoto.jpg", "Maria", "AQAAAAIAAYagAAAAEKwD4UAJZq3JXJL600d8hlyhyXIS72tzWhOA0ClRNtRTPxIRK9UWzKRg4qM4+FJUGw==", "Aluno" },
+                    { 4, "123.456.789-01", "joao@gmail.com", "defaultphoto.jpg", "João", "AQAAAAIAAYagAAAAEOJK3uYuItjVg7Glpre4mvw0SDnhU+ohbTAg03BqG6UDIYWn4fnVahH7lpjpjjUg2w==", "Aluno" }
                 });
 
             migrationBuilder.InsertData(
