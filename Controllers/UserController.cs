@@ -100,7 +100,7 @@ namespace olympo_webapi.Controllers
             {
                 if (input == null)
                 {
-                    return BadRequest("Dados do exercicio inválido.");
+                    return BadRequest("Dados do usuário inválido.");
                 }
 
                 string? imagePath = null;
@@ -113,6 +113,7 @@ namespace olympo_webapi.Controllers
                 {
                     CPF = input.CPF,
                     Name = input.Name,
+                    Type = input.Type,
                     Email = input.Email,
                     ImagePath = imagePath,
                     Password = HashService.HashPassword(input.Password),

@@ -436,12 +436,6 @@ E:\SSD\Sprintech\projects\Ultima versão\olympo-webapi\obj\Debug\net8.0\olympo-w
 E:\SSD\Sprintech\projects\Ultima versão\olympo-webapi\obj\Debug\net8.0\ref\olympo-webapi.dll
 D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\appsettings.Development.json
 D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\appsettings.json
-D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\publish\web.config
-D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\publish\appsettings.Development.json
-D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\publish\appsettings.json
-D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\publish\olympo-webapi.deps.json
-D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\publish\olympo-webapi.runtimeconfig.json
-D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\publish\olympo-webapi.staticwebassets.endpoints.json
 D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\olympo-webapi.staticwebassets.runtime.json
 D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\olympo-webapi.staticwebassets.endpoints.json
 D:\SSD\Sprintech\projects\olympo-webapi\bin\Debug\net8.0\olympo-webapi.exe
